@@ -1,0 +1,32 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "Project Antigravityは、Discordコミュニティ（主にサバイバルMMO向け）に、Googleの最新AIモデル「Gemini」と音声合成エンジン「VOICEVOX」を組み合わせた、フルボイスの「妹分AI」を召喚するプロジェクトです。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rinkernation/discord_sister_act.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Rinkernation/discord_sister_act/issues"
+  },
+  "homepage": "https://github.com/Rinkernation/discord_sister_act#readme",
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "discord.js": "^14.26.3",
+    "dotenv": "^17.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
